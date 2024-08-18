@@ -10,6 +10,7 @@ import QA.DriverFactory;
 
 public class LoginPage extends DriverFactory
 {
+	//Object Repository for Login page
 	By uname = By.xpath("//input[@class=\"input-text\" and @title=\"Email\" ]");
 	By pwd = By.xpath("//input[@class=\"input-text\" and @title=\"Password\" ]");
 	By loginbutton = By.xpath("//button[@class=\"action login primary\" and @id=\"send2\" ]");
